@@ -22,4 +22,59 @@
 <link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
 <meta name="theme-color" content="var(--global-bg-color)"/>
 
+<style>
+  /* Hide calendar icon and "Published: Date" on Portfolio/Projects archive */
+  .archive__item .page__date {
+    display: none !important;
+  }
+
+  /* Collapse empty excerpts (e.g., Publications page) */
+  .archive__item-excerpt:empty {
+    display: none;
+    margin: 0;
+  }
+
+  /* Make footer minimal and compact (uncomment display:none to hide completely) */
+  .page__footer {
+    margin-top: 2em;
+    /* display: none !important; */
+  }
+  .page__footer footer {
+    padding: 0.75em 1em !important;
+    margin-top: 0 !important;
+  }
+
+  /* Crisp, proportional circular profile photo on desktop */
+  .author__avatar img {
+    width: 175px;
+    height: 175px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    box-sizing: border-box;
+  }
+
+  /* Fix tiny/squished profile photo on phones and tablets */
+  @media (max-width: 1023px) {
+    .author__avatar {
+      width: 84px !important;
+      height: 84px !important;
+      flex-shrink: 0;
+      vertical-align: middle;
+    }
+    .author__avatar img {
+      width: 84px !important;
+      height: 84px !important;
+      max-width: 84px !important;
+      max-height: 84px !important;
+      padding: 2px;
+    }
+    .author__content {
+      vertical-align: middle;
+      padding-left: 14px;
+    }
+  }
+</style>
+
 <!-- end custom head snippets -->

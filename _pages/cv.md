@@ -14,7 +14,7 @@ redirect_from:
 Education
 ======
 * **B.S. in Electrical Engineering**, Sharif University of Technology, Tehran, Iran *(Sep. 2022 – Aug. 2026)*
-  * GPA: 18.76/20 (Department Average: 16.42/20) — Rank: 16/191 (Top 10%)
+  * GPA: 18.76/20 — Rank: 16/191
   * **Selected Coursework:** Digital Signal Processing Lab, Estimation Theory, Software-Defined Cloud Mobile Networks, Data Communications Networks, Digital Communications, Deep Learning, Reinforcement Learning, Deep Generative Models, Convex Optimization
 
 Research Experience
@@ -37,15 +37,14 @@ Research Experience
 
 Publications
 ======
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+* **Iman Alizadeh Fakouri**, Rojin Salmani, Amitis Mirabedini, Sina Jorjani, Ozgur Gurbuz, Caglar Tunc, and Mikail Erdem, *"Machine-Learning-Based Broadband Path Loss Modeling for THz Aerial Networks,"* submitted to *IEEE Transactions on Vehicular Technology*, 2026. ([Paper PDF](/files/THz_Path_Loss_TVT2026.pdf))
 
-Teaching
+Teaching Experience
 ======
-<ul>{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+* **Undergraduate Teaching Assistant**, Sharif University of Technology *(Sep. 2023 – June 2026)*
+  * **Head TA (3 semesters):** Mathematical Methods in Engineering (Linear Algebra) — led the TA team in designing assignments, automated tests, and grading rubrics.
+  * **Assignment Development:** Deep Learning, Machine Learning, Deep Generative Models, Convex Optimization, Data Networks, and Digital Communications.
+  * **Projects & Assessments:** Data Science and Object-Oriented Programming.
 
 Technical Skills & Languages
 ======

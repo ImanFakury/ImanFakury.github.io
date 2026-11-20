@@ -71,13 +71,7 @@ author:
   zhihu            :
 
 # Publication Categories
-publication_category:
-  manuscripts:
-    title: 'Journal Articles & Preprints'
-  conferences:
-    title: 'Conference Papers'
-  books:
-    title: 'Books'
+
 
 # Site Settings
 teaser                   :
