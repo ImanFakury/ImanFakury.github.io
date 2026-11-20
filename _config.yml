@@ -17,7 +17,7 @@ author:
   pronouns         :
   bio              : "B.S. in Electrical Engineering, Sharif University of Technology"
   location         : "Tehran, Iran"
-  employer         : ""
+  # employer         : ""
   uri              :
   email            : "imanfakury1382@gmail.com"
 

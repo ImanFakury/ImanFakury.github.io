@@ -76,5 +76,10 @@
     }
   }
 </style>
-
+<script>
+  if (!localStorage.getItem("theme")) {
+    localStorage.setItem("theme", "light");
+    document.documentElement.removeAttribute("data-theme");
+  }
+</script>
 <!-- end custom head snippets -->
